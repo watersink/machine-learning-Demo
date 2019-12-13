@@ -1,10 +1,11 @@
-# machine learning Demo
+# Machine Learning Demo
 决策树,xgboost
 
 # 决策树
     #python
     python3 decision_tree.py
     dot -Tpdf tree.dot -o tree.pdf
+    
     #cpp
     mkdir build
     cmake ..
