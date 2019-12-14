@@ -1,5 +1,5 @@
 # Machine Learning Demo
-决策树,xgboost
+决策树,xgboost,pca
 
 # 决策树
     #python
@@ -15,7 +15,11 @@
 # xgboost
     python3 xgDemo.py
 
-
+# pca
+    #降维
+    python3 pca_Dimension_reduction.py
+    #旋转数据
+    python3 pca_rotate.py
 
 
 
