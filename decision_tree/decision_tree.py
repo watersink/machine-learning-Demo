@@ -18,8 +18,8 @@ with open("air.csv","r",encoding="utf-8") as f:
 label=[]
 data=[]
 for line in lines:
-    data.append(line.rstrip("\n").split(",")[1:])
-    label.append(line.rstrip("\n").split(",")[0])
+    data.append(line.rstrip("\n").split(",")[:-1])
+    label.append(line.rstrip("\n").split(",")[-1])
 
 data=np.asarray(data)
 label=np.asarray(label)
