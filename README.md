@@ -1,5 +1,5 @@
 # Machine Learning Demo
-决策树,随机森林,bagging,adaboost,gbdt,xgboost,catboost,pca
+决策树,随机森林,bagging,adaboost,gbdt,xgboost,lightgbm,catboost,pca
 
 # 决策树decision_tree
     #python
@@ -35,6 +35,9 @@
 
 # xgboost
     python3 xgDemo.py
+
+# lightgbm
+    python3 gbm.py
 
 # catboost
     python3 cat.py
