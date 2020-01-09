@@ -1,5 +1,5 @@
 # Machine Learning Demo
-mlp,决策树,随机森林,bagging,adaboost,gbdt,xgboost,lightgbm,catboost,pca
+mlp,决策树,随机森林,bagging,adaboost,gbdt,xgboost,lightgbm,catboost,pca,svm
 
 # 多层感知机mlp
     #python
@@ -59,5 +59,12 @@ mlp,决策树,随机森林,bagging,adaboost,gbdt,xgboost,lightgbm,catboost,pca
     #旋转数据
     python3 pca_rotate.py
 
-
-
+# svm
+    #python
+    python3 svm.py
+    
+    #cpp
+    mkdir build
+    cd build&&cmake ..
+    make
+    ./svm
