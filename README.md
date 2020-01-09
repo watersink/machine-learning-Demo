@@ -1,5 +1,15 @@
 # Machine Learning Demo
-决策树,随机森林,bagging,adaboost,gbdt,xgboost,lightgbm,catboost,pca
+mlp,决策树,随机森林,bagging,adaboost,gbdt,xgboost,lightgbm,catboost,pca
+
+# 多层感知机mlp
+    #python
+    python3 mlp.py
+    
+    #cpp
+    mkdir build
+    cd build&&cmake ..
+    make
+    ./mlp
 
 # 决策树decision_tree
     #python
