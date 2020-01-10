@@ -57,7 +57,7 @@ mlp,决策树,随机森林,bagging,adaboost,gbdt,xgboost,lightgbm,catboost,gcFor
     python3 examples/demo_mnist.py
 
 <div>
-<img width="600" height="300" src="https://github.com/watersink/machine-learning-Demo/blob/master/gcForest/gcForest.png"/>
+![img](https://github.com/watersink/machine-learning-Demo/blob/master/gcForest/gcForest.png)
 </div>
 
 # pca
